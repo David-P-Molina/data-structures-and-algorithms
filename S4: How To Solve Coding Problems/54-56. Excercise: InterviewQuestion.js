@@ -4,8 +4,8 @@
 const arr1 = [1,3,65,7]
 const arr2 = [8,54,3,144]
 // should return true
-const array1 = [1,3,65,7]
-const array2 = [8,54,30,144]
+// const array1 = [1,3,65,7]
+// const array2 = [8,54,30,144]
 // should return false
 
 // Input: 2 parameters - arrays - no size limit
@@ -27,6 +27,7 @@ const array2 = [8,54,30,144]
 //     return false
 // }
 // containsCommonItem(array1,array2)
+// Space Complexity is constant O(1)
 
 // O(a*b)
 //BETTER SOLUTION
@@ -59,3 +60,17 @@ containsCommonItem2(array1,array2)
 // start testing your code with if statements
 
 // Remember to name variables based on what you are going to do later on
+// Talk about what you would do differently
+//Say you would use methods to see if it is possible to make code look cleaner
+const array1 = [1,3,65,7]
+const array2 = [8,54,3,144]
+//Using builtin js methods
+function containsCommonItem3(arr1,arr2) {
+    return arr1.some((item) => arr2.includes(item))
+}
+containsCommonItem3(array1, array2)
+
+
+//Don't forget to talk about modularizing your code.
+//Creates clean testable code
+
