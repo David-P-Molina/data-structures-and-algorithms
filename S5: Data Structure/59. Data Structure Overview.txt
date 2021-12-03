@@ -1,0 +1,27 @@
+Data Structures + Algorithms = Programs
+
+WHat is a Data Structure?
+Is a collection of values, Each data structure is good container for specific things
+Data structures are useful for certain things
+-a way for us to retrieve/put away data easily
+Can store data types in data structures
+
+Which data structure is best?
+-it depends
+DATA STRUCTURES
+1. How to build one
+2. How to Use it over another one
+
+How Computers Store Data
+CPU-Does the calculating
+RAM-Random Excess memory, Much faster than storage
+STORAGE-Persisted Save Data that will still be there when the computer turns off, it is slow
+
+Ram allows us to run programs, each shelf holds 8 bits, 8 bits = 1 byte
+1 byte is stored on a shelf without having to step downRam just needs to know which memory it needs to
+The closer the info is to the cpu the faster it runs. 
+CPU cache that stores info that is really really recent
+
+What is a Data Structure?
+-ways for us to store information
+
