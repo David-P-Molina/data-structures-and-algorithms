@@ -1,0 +1,10 @@
+Different languages  have different data structures builtin
+-If a language doesn't have a data structure you can build one
+
+Operating on Data Structure
+INSERTION- adding an item
+DELETION- deleting an item
+TRAVERSAL- access each data item once so it can be processed
+SEARCHING- look for the location of an item
+SORTING- changing order of stored information
+ACCESS- how do you access the information
