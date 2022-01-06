@@ -1,0 +1,43 @@
+Static Array = fixed in size, need to specify the number of items max
+In JavaScript arrays work like dynamic arrays, dont have to think about memory
+
+## Dynamic arrays
+lookup O(1)
+append* O(1) can be O(n)
+insert O(n)
+delete O(n)
+
+In Dynamic arrays when you add a new item what happens under the hood
+you copy the array and create a new array in another space and then add the item
+
+67. 
+Reference Type
+When you create an array it is an object so [] = [] returns false
+
+Context vs. Scope
+function b() {
+    let a = 4
+}
+
+Instantiation
+class Player {
+    constructor(name, type) {
+        this.name = name;
+        this.type = type;
+    }
+    introduce() {
+        console.log(`Hi I am ${this.name}.)
+    }
+}
+
+class Wizard extends Player {
+    constructor(name, type) {
+        super(name, type) {
+            
+        }
+        play() {
+            console.log('WEEEE I'm a ${wizard})
+        }
+    }
+}
+const wizard = new Wizard('Shelly', 'Healer')
